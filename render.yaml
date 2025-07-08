@@ -1,1 +1,11 @@
-
+services:
+  - type: web
+    name: tl45678-proxy
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: ALLOWED_ORIGIN
+        value: https://tackyleague.com
