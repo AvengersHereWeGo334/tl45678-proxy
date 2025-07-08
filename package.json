@@ -1,1 +1,19 @@
-
+{
+  "name": "tl45678-proxy",
+  "version": "1.0.0",
+  "description": "CORS proxy for TackyLeague Roblox API access",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors-anywhere": "^0.4.4"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "keywords": ["cors", "proxy", "roblox", "api", "tackyleague"],
+  "author": "7Tacky7",
+  "license": "MIT"
+}
