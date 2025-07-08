@@ -77,7 +77,7 @@ cors_proxy.createServer = function(options) {
             res.end(JSON.stringify({
                 status: 'healthy',
                 timestamp: new Date().toISOString(),
-                service: 'tackyleague-cors-proxy',
+                service: 'tl45678-proxy',
                 uptime: process.uptime()
             }));
             return;
